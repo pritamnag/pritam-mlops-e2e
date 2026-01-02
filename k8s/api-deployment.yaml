@@ -14,14 +14,14 @@ spec:
     spec:
       containers:
       - name: api
-        image: loksaieta/loksai-mlops830api:latest
+        image: pritamnag28/loksai-mlops830api:latest
         ports:
         - containerPort: 8000
 ---
 apiVersion: v1
 kind: Service
 metadata:
-  name: loksai-api-svc
+  name: pritam-api-svc
 spec:
   selector:
     app: api
