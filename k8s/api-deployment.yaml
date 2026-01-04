@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: api
-        image: pritamnag28/loksai-mlops830api:latest
+        image: pritamnag28/pritam-mlops830api:latest
         ports:
         - containerPort: 8000
 ---
