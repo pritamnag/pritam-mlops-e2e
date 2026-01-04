@@ -6,7 +6,7 @@ import os
 # ---------------------------
 # CHANGE THESE IF NEEDED
 # ---------------------------
-S3_BUCKET = "pritam-mlops-bucket"
+S3_BUCKET = "pritam-mlproj-bkt1"
 S3_KEY = "latest/model.pkl"
 LOCAL_MODEL_PATH = "models/model.pkl"
 # ---------------------------
