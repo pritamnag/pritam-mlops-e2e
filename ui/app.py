@@ -4,7 +4,7 @@ import requests
 # ⚠️ When running locally
 API_URL = "http://pritam-ui-svc:8000/predict"
 
-st.title("Loksai MLOps Feedback Analyzer")
+st.title("Pritam MLOps Feedback Analyzer")
 
 text = st.text_area("Enter feedback")
 
