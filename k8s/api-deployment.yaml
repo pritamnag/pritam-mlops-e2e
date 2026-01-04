@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: loksai-api-deploy
+  name: pritam-api-deploy
 spec:
   replicas: 1
   selector:
