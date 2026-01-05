@@ -61,7 +61,6 @@ jobs:
     - name: Setup kubectl
       run: |
         mkdir -p ~/.kube
-        # echo "${{ secrets.KUBECONFIG_DATA }}" > ~/.kube/config
         echo "${{ secrets.KUBECONFIG_DATA }}" | base64 --decode > ~/.kube/config
 
     - name: Deploy to Kubernetes
