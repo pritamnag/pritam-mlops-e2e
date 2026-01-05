@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 
 # ⚠️ When running locally
-API_URL = "http://pritam-ui-svc:8000/predict"
+API_URL = "http://pritam-api-svc:8000/predict"
 
 st.title("Pritam MLOps Feedback Analyzer")
 
